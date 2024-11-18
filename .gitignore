@@ -1,24 +1,25 @@
-*.bak 
-*.ddk 
-*.edk
-*.lst 
+# Keil Generated output files in the sub-directories .\Listings and .\Objects
+*.lst
+*.o
+*.d
+*.crf
 *.lnp
-*.mpf 
-*.mpj 
-*.obj 
-*.omf 
-*.plg 
-*.rpt
-*.tmp
+*.axf
+*.htm
+*.build_log.htm
+*.dep
+*.iex
 *.i
-*.crf 
-*.o 
-*.d 
-*.axf 
-*.tra 
-*.dep            
+*.bin
+*.hex
+SI/
+MDK-ARM/DebugConfig
+MDK-ARM/RTE
+MDK-ARM/UART_IDLE
+*.scvd
+#Keil Project screen layout file
+#!/MDK-ARM/*.uvoptx
+#!/MDK-ARM/*.uvprojx
+
+#JLINK file
 JLinkLog.txt
-*.iex 
-*.htm 
-*.sct 
-*.map

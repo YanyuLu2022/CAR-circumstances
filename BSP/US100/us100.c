@@ -6,6 +6,7 @@
 #include "us100.h"
 #include "tim.h"
 
+
 #define TRIG_H HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, GPIO_PIN_SET)
 #define TRIG_L HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, GPIO_PIN_RESET)
 #define Us100_TIME_nvic &htim2
